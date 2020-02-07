@@ -2,4 +2,5 @@
 
 
 cdef class MutableNumber:
-    cdef list history
+    cdef readonly:
+        list history
