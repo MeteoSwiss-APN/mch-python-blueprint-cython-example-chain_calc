@@ -51,7 +51,7 @@ setup(
     entry_points={"console_scripts": scripts},
     packages=find_packages("src"),
     package_dir={"": "src"},
-    ext_modules=cythonize("src/*/*.pyx"),
+    ext_modules=cythonize("src/*/*.pyx", annotate=True),
     include_package_data=True,
     **metadata,
 )
