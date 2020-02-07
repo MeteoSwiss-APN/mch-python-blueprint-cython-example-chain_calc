@@ -2,8 +2,8 @@
   "full_name": "Chris Calculator",
   "email": "{{ cookiecutter.full_name.lower().replace(' ', '.') }}@meteoswiss.ch",
   "github_username": "{{ cookiecutter.full_name.lower().replace(' ', '') }}",
-  "project_name": "ChainCalc",
-  "project_slug": "chain_calc",
+  "project_name": "ChainCalcCython",
+  "project_slug": "chain_calc_cython",
   "project_short_description": "A simple command line chain calculator.",
   "version": "0.1.0"
 }
